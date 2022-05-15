@@ -1,0 +1,12 @@
+apiVersion: v1
+entries:
+  static_site:
+  - apiVersion: v1
+    created: "2022-05-15T17:59:49.025906536Z"
+    description: Static site Configuration
+    digest: a0000a5d0ae2e4cdd6db32a6c454f7a6e17fed5100029a01027709f2ad1bd093
+    name: static_site
+    urls:
+    - https://github.com/habr-mms/github-tests/releases/download/static_site-0.0.1/static_site-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-05-15T17:59:49.025913136Z"
