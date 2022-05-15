@@ -8,7 +8,7 @@ on:
       - main
 
 jobs:
-  release:
+  helm_release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -20,3 +20,8 @@ jobs:
         run: |
           git config user.name "$GITHUB_ACTOR"
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+
+      - name: Show token
+        run:
+          echo "${{ secrets.GITHUB_TOKEN }}"
+          
